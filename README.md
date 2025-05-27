@@ -203,5 +203,3 @@ build/
 - ✅ Swagger docs with JWT "Authorize" support
 
 ---
-
-MIT License
