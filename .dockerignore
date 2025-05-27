@@ -1,6 +1,5 @@
 node_modules/
 .env
-.env.*
 Dockerfile
 *.log
 npm-debug.log*
