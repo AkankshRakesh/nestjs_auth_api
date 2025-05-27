@@ -21,7 +21,7 @@ let AppController = class AppController {
         return { status: 'OK' };
     }
     getProfile(req) {
-        // Only return safe fields
+        // only return safe fields
         const { id, email, name } = req.user;
         return { id, email, name };
     }

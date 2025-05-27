@@ -14,7 +14,7 @@ let UsersService = class UsersService {
             {
                 id: 1,
                 email: 'user@example.com',
-                password: 'password', // plain text password for testing
+                password: 'password', // plain text password for simplicity, can by hashed in bycrypt during production
                 name: 'Test User',
             },
         ];
