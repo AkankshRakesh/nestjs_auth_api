@@ -1,6 +1,6 @@
 # NestJS JWT Auth API
 
-A clean, modern NestJS 11+ REST API demonstrating JWT authentication, TypeScript strict mode, and best practices for scalable Node.js backends.
+A clean, modern NestJS 11+ REST API demonstrating JWT authentication, TypeScript strict mode, and best practices for scalable Node.js backend.
 
 ---
 
