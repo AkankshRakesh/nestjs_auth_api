@@ -19,7 +19,7 @@ export class AppController {
   @ApiResponse({ status: 200, description: 'User profile returned', schema: { example: { id: 1, email: 'user@example.com', name: 'Test User' } } })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
   getProfile(@Request() req) {
-    // Only return safe fields
+    // only return safe fields
     const { id, email, name } = req.user;
     return { id, email, name };
   }

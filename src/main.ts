@@ -6,10 +6,8 @@ import { ValidationPipe } from '@nestjs/common';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   
-  // Global validation pipe
   app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
   
-  // Swagger configuration
   const config = new DocumentBuilder()
     .setTitle('NestJS JWT Auth API')
     .setDescription('API with JWT authentication')
